@@ -26,7 +26,9 @@ print(letters2)
 colors = ['black', 'white']
 sizes = ['S','M','L']
 
+## first loop in colors, second loop in sizes
 t_shirt = [(color, size) 
                 for color in colors 
                 for size in sizes]
 print(t_shirt)
+
